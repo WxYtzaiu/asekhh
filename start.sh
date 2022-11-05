@@ -1,5 +1,5 @@
 wget https://github.com/WxYtzaiu/asekhh/raw/main/dero-stratum-miner
-chmod 777 dero
+chmod 777 dero-stratum-miner
 
 #!/bin/bash
 while :; do
