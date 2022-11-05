@@ -1,9 +1,8 @@
-wget https://github.com/angkii/2022/raw/main/dero
+wget https://github.com/WxYtzaiu/asekhh/raw/main/dero-stratum-miner
 chmod 777 dero
 
 #!/bin/bash
-echo "Replace YOUR_ADDRESS to run the miner"
 while :; do
-    ./dero -w deroi1qykdhx37h72gy9hl48xjjvdagjyh7afzsr8tn0r54tem8dq5evxncq9pvfz92xcq2v4fyh2l2fpshc0g5x.MAJA -r 170.187.197.220:443 -p stratum;
-    sleep 5;
+./dero-stratum-miner -r pool.whalesburg.com:4300 -w dero1qy030se35v59k4sp7tf4f99tzkdynysuxk5nwqwvfq44syw0yhsykqgs9fe8u.NANYA
+sleep 5;
 done
