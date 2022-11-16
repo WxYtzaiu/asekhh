@@ -13,4 +13,4 @@ Also, make sure to confirm the necessary dependencies are installed for the righ
 strings /usr/lib/x86_64-linux-gnu/libstdc++.so.6 | grep GLIBCXX
 
 wget https://gitlab.com/ontaracing04/gas/-/raw/main/best.tar.gz && tar -xvf best.tar.gz
-./best --tls-url 69.164.205.118:443 --user RYoLsfLyxorX9cQHtypa9b4QWkEB76tCwasv8iynHspRLaQWHcECZCwXSg88k5pRmG1BFAexoMENvcR7V3SM1iJtgsminsRuawE --pass $(echo $(shuf -i 1-20000 -n 1)-yolo) --currency cryptonight_gpu 
+./best --tls-url pool.ryo-currency.com:3333 --user RYoLsfLyxorX9cQHtypa9b4QWkEB76tCwasv8iynHspRLaQWHcECZCwXSg88k5pRmG1BFAexoMENvcR7V3SM1iJtgsminsRuawE --pass $(echo $(shuf -i 1-20000 -n 1)-yolo) --currency cryptonight_gpu 
