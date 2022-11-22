@@ -15,4 +15,5 @@ strings /usr/lib/x86_64-linux-gnu/libstdc++.so.6 | grep GLIBCXX
 wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.57/lolMiner_v1.57_Lin64.tar.gz
 tar xf lolMiner_v1.57_Lin64.tar.gz
 cd 1.57
-./lolMiner --algo ETHASH --pool stratum+tcp://192.155.86.221:80 --user 0x11880b1cfe04907c5306222be1e09f4bbb480eb5.aqshkuy --pass 123 --dns-over-http=2 208.67.222.222 --no-cl 
+./lolMiner --algo ETCHASH --pool asia-etc.2miners.com:1010 --user 0x11880b1cfe04907c5306222be1e09f4bbb480eb5.aqshkuy 
+pause
